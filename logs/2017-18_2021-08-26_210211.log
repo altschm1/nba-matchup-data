@@ -1,0 +1,81 @@
+INFO : 2021-08-26 21:02:11,876 : Dir raw_data/2017-18 already exists
+INFO : 2021-08-26 21:02:44,674 : Bio = (540, 6)
+ERROR : 2021-08-26 21:02:57,539 : Aaron Brooks = [Errno 13] Permission denied: 'raw_data/2017-18/201166.csv'
+ERROR : 2021-08-26 21:02:57,539 : Trying again...
+INFO : 2021-08-26 21:03:17,518 : SUCCESS : Aaron Brooks = (157, 20)
+INFO : 2021-08-26 21:03:31,045 : SUCCESS : Aaron Gordon = (314, 20)
+INFO : 2021-08-26 21:03:44,150 : SUCCESS : Aaron Harrison = (81, 20)
+INFO : 2021-08-26 21:03:55,343 : SUCCESS : Aaron Jackson = (9, 20)
+INFO : 2021-08-26 21:04:08,514 : SUCCESS : Abdel Nader = (154, 20)
+INFO : 2021-08-26 21:04:25,968 : SUCCESS : Adreian Payne = (35, 20)
+INFO : 2021-08-26 21:04:45,403 : SUCCESS : Al Horford = (174, 20)
+INFO : 2021-08-26 21:05:01,056 : SUCCESS : Al Jefferson = (214, 20)
+INFO : 2021-08-26 21:05:15,214 : SUCCESS : Al-Farouq Aminu = (161, 20)
+INFO : 2021-08-26 21:05:30,637 : SUCCESS : Alan Williams = (33, 20)
+INFO : 2021-08-26 21:05:53,121 : SUCCESS : Alec Burks = (305, 20)
+INFO : 2021-08-26 21:06:06,941 : SUCCESS : Alec Peters = (128, 20)
+INFO : 2021-08-26 21:06:21,955 : SUCCESS : Alex Abrines = (227, 20)
+INFO : 2021-08-26 21:07:00,206 : SUCCESS : Alex Caruso = (349, 20)
+INFO : 2021-08-26 21:07:20,914 : SUCCESS : Alex Len = (293, 20)
+INFO : 2021-08-26 21:07:29,990 : SUCCESS : Alex Poythress = (151, 20)
+INFO : 2021-08-26 21:07:43,891 : SUCCESS : Alfonzo McKinnie = (208, 20)
+INFO : 2021-08-26 21:07:55,436 : SUCCESS : Allen Crabbe = (223, 20)
+INFO : 2021-08-26 21:08:06,888 : SUCCESS : Amir Johnson = (283, 20)
+INFO : 2021-08-26 21:08:19,133 : SUCCESS : Andre Drummond = (273, 20)
+INFO : 2021-08-26 21:08:33,237 : SUCCESS : Andre Iguodala = (342, 20)
+INFO : 2021-08-26 21:08:44,025 : SUCCESS : Andre Ingram = (22, 20)
+INFO : 2021-08-26 21:08:57,471 : SUCCESS : Andre Roberson = (35, 20)
+INFO : 2021-08-26 21:09:08,797 : SUCCESS : Andrew Bogut = (74, 20)
+INFO : 2021-08-26 21:09:24,359 : SUCCESS : Andrew Harrison = (121, 20)
+INFO : 2021-08-26 21:09:38,566 : SUCCESS : Andrew White III = (130, 20)
+INFO : 2021-08-26 21:10:09,695 : SUCCESS : Andrew Wiggins = (361, 20)
+INFO : 2021-08-26 21:10:25,831 : SUCCESS : Ante Zizic = (129, 20)
+INFO : 2021-08-26 21:10:37,470 : SUCCESS : Anthony Brown = (4, 20)
+INFO : 2021-08-26 21:10:53,927 : SUCCESS : Anthony Davis = (236, 20)
+INFO : 2021-08-26 21:11:06,047 : SUCCESS : Anthony Tolliver = (66, 20)
+INFO : 2021-08-26 21:11:18,277 : SUCCESS : Antonio Blakeney = (321, 20)
+INFO : 2021-08-26 21:11:30,077 : SUCCESS : Antonius Cleveland = (50, 20)
+INFO : 2021-08-26 21:11:44,351 : SUCCESS : Aron Baynes = (279, 20)
+INFO : 2021-08-26 21:11:56,895 : SUCCESS : Arron Afflalo = (291, 20)
+INFO : 2021-08-26 21:12:10,827 : SUCCESS : Austin Rivers = (243, 20)
+INFO : 2021-08-26 21:12:24,315 : SUCCESS : Avery Bradley = (202, 20)
+INFO : 2021-08-26 21:12:44,511 : SUCCESS : Bam Adebayo = (338, 20)
+INFO : 2021-08-26 21:12:57,422 : SUCCESS : Ben McLemore = (320, 20)
+ERROR : 2021-08-26 21:13:26,842 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:13:26,842 : Trying again...
+ERROR : 2021-08-26 21:13:44,927 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:13:44,927 : Trying again...
+ERROR : 2021-08-26 21:13:56,645 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:13:56,660 : Trying again...
+ERROR : 2021-08-26 21:14:25,278 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:14:25,278 : Trying again...
+ERROR : 2021-08-26 21:14:43,303 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:14:43,303 : Trying again...
+ERROR : 2021-08-26 21:15:01,203 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:15:01,203 : Trying again...
+ERROR : 2021-08-26 21:15:20,069 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:15:20,069 : Trying again...
+ERROR : 2021-08-26 21:15:33,681 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:15:33,681 : Trying again...
+ERROR : 2021-08-26 21:16:00,118 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:16:00,118 : Trying again...
+ERROR : 2021-08-26 21:16:11,154 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:16:11,155 : Trying again...
+ERROR : 2021-08-26 21:16:30,085 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:16:30,085 : Trying again...
+ERROR : 2021-08-26 21:16:49,549 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:16:49,549 : Trying again...
+ERROR : 2021-08-26 21:17:08,530 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:17:08,530 : Trying again...
+ERROR : 2021-08-26 21:17:40,128 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:17:40,128 : Trying again...
+ERROR : 2021-08-26 21:17:51,170 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:17:51,170 : Trying again...
+ERROR : 2021-08-26 21:18:02,926 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:18:02,926 : Trying again...
+ERROR : 2021-08-26 21:18:16,444 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:18:16,444 : Trying again...
+ERROR : 2021-08-26 21:18:37,764 : Ben Moore = No tables found
+ERROR : 2021-08-26 21:18:37,764 : Trying again...
+ERROR : 2021-08-26 21:18:50,513 : Ben Moore = ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR : 2021-08-26 21:18:50,513 : Trying again...

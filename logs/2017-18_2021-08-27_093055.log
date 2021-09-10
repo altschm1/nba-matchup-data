@@ -1,0 +1,336 @@
+INFO : 2021-08-27 09:30:55,530 : Dir raw_data/2017-18 already exists
+INFO : 2021-08-27 09:31:30,161 : Bio = (540, 6)
+INFO : 2021-08-27 09:31:30,348 : SUCCESS : Aaron Brooks - 201166.csv already exists
+INFO : 2021-08-27 09:31:30,348 : SUCCESS : Aaron Gordon - 203932.csv already exists
+INFO : 2021-08-27 09:31:30,348 : SUCCESS : Aaron Harrison - 1626151.csv already exists
+INFO : 2021-08-27 09:31:30,348 : SUCCESS : Aaron Jackson - 1628935.csv already exists
+INFO : 2021-08-27 09:31:30,348 : SUCCESS : Abdel Nader - 1627846.csv already exists
+INFO : 2021-08-27 09:31:30,366 : SUCCESS : Adreian Payne - 203940.csv already exists
+INFO : 2021-08-27 09:31:30,368 : SUCCESS : Al Horford - 201143.csv already exists
+INFO : 2021-08-27 09:31:30,368 : SUCCESS : Al Jefferson - 2744.csv already exists
+INFO : 2021-08-27 09:31:30,368 : SUCCESS : Al-Farouq Aminu - 202329.csv already exists
+INFO : 2021-08-27 09:31:30,368 : SUCCESS : Alan Williams - 1626210.csv already exists
+INFO : 2021-08-27 09:31:30,368 : SUCCESS : Alec Burks - 202692.csv already exists
+INFO : 2021-08-27 09:31:30,368 : SUCCESS : Alec Peters - 1628409.csv already exists
+INFO : 2021-08-27 09:31:30,368 : SUCCESS : Alex Abrines - 203518.csv already exists
+INFO : 2021-08-27 09:31:30,368 : SUCCESS : Alex Caruso - 1627936.csv already exists
+INFO : 2021-08-27 09:31:30,368 : SUCCESS : Alex Len - 203458.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Alex Poythress - 1627816.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Alfonzo McKinnie - 1628035.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Allen Crabbe - 203459.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Amir Johnson - 101161.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Andre Drummond - 203083.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Andre Iguodala - 2738.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Andre Ingram - 201281.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Andre Roberson - 203460.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Andrew Bogut - 101106.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Andrew Harrison - 1626150.csv already exists
+INFO : 2021-08-27 09:31:30,379 : SUCCESS : Andrew White III - 1628510.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Andrew Wiggins - 203952.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Ante Zizic - 1627790.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Anthony Brown - 1626148.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Anthony Davis - 203076.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Anthony Tolliver - 201229.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Antonio Blakeney - 1628469.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Antonius Cleveland - 1628499.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Aron Baynes - 203382.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Arron Afflalo - 201167.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Austin Rivers - 203085.csv already exists
+INFO : 2021-08-27 09:31:30,395 : SUCCESS : Avery Bradley - 202340.csv already exists
+INFO : 2021-08-27 09:31:30,411 : SUCCESS : Bam Adebayo - 1628389.csv already exists
+INFO : 2021-08-27 09:31:30,411 : SUCCESS : Ben McLemore - 203463.csv already exists
+ERROR : 2021-08-27 09:31:41,427 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:31:41,427 : Trying again...
+ERROR : 2021-08-27 09:31:52,676 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:31:52,677 : Trying again...
+ERROR : 2021-08-27 09:32:02,422 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:32:02,423 : Trying again...
+ERROR : 2021-08-27 09:32:13,205 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:32:13,205 : Trying again...
+ERROR : 2021-08-27 09:32:34,712 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:32:34,712 : Trying again...
+ERROR : 2021-08-27 09:32:44,649 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:32:44,650 : Trying again...
+ERROR : 2021-08-27 09:32:55,707 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:32:55,707 : Trying again...
+ERROR : 2021-08-27 09:33:07,037 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:33:07,037 : Trying again...
+ERROR : 2021-08-27 09:33:17,224 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:33:17,224 : Trying again...
+ERROR : 2021-08-27 09:33:38,491 : Ben Moore = No tables found
+ERROR : 2021-08-27 09:33:38,491 : Trying again...
+ERROR : 2021-08-27 09:33:38,707 : Unable to parse Ben Moore
+INFO : 2021-08-27 09:33:38,707 : SUCCESS : Ben Simmons - 1627732.csv already exists
+INFO : 2021-08-27 09:33:38,707 : SUCCESS : Bismack Biyombo - 202687.csv already exists
+INFO : 2021-08-27 09:33:38,707 : SUCCESS : Blake Griffin - 201933.csv already exists
+INFO : 2021-08-27 09:33:38,707 : SUCCESS : Boban Marjanovic - 1626246.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Bobby Brown - 201628.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Bobby Portis - 1626171.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Bogdan Bogdanovic - 203992.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Bojan Bogdanovic - 202711.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Bradley Beal - 203078.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Brandan Wright - 201148.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Brandon Ingram - 1627742.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Brandon Jennings - 201943.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Brandon Paul - 203464.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Briante Weber - 1627362.csv already exists
+INFO : 2021-08-27 09:33:38,723 : SUCCESS : Brice Johnson - 1627744.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Brook Lopez - 201572.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Bruno Caboclo - 203998.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Bryn Forbes - 1627854.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Buddy Hield - 1627741.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : C.J. Williams - 203710.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : CJ McCollum - 203468.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : CJ Miles - 101139.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Caleb Swanigan - 1628403.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Cameron Payne - 1626166.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Caris LeVert - 1627747.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Carmelo Anthony - 2546.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Cedi Osman - 1626224.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Chandler Parsons - 202718.csv already exists
+INFO : 2021-08-27 09:33:38,739 : SUCCESS : Channing Frye - 101112.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Charles Cooke - 1628429.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Cheick Diallo - 1627767.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Chinanu Onuaku - 1627778.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Chris Boucher - 1628449.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Chris McCullough - 1626191.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Chris Paul - 101108.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Clint Capela - 203991.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Cody Zeller - 203469.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Cole Aldrich - 202332.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Corey Brewer - 201147.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Cory Joseph - 202709.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Courtney Lee - 201584.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : Cristiano Felicio - 1626245.csv already exists
+INFO : 2021-08-27 09:33:38,754 : SUCCESS : D'Angelo Russell - 1626156.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : D.J. Augustin - 201571.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : D.J. Wilson - 1628391.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Dakari Johnson - 1626177.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Damian Jones - 1627745.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Damian Lillard - 203081.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Damien Wilkins - 2863.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Damion Lee - 1627814.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Damyean Dotson - 1628422.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Daniel Hamilton - 1627772.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Daniel Theis - 1628464.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Danilo Gallinari - 201568.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Danny Green - 201980.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Dante Cunningham - 201967.csv already exists
+INFO : 2021-08-27 09:33:38,770 : SUCCESS : Dante Exum - 203957.csv already exists
+INFO : 2021-08-27 09:33:38,786 : SUCCESS : Danuel House Jr. - 1627863.csv already exists
+INFO : 2021-08-27 09:33:38,786 : SUCCESS : Dario Saric - 203967.csv already exists
+INFO : 2021-08-27 09:33:38,786 : SUCCESS : Darius Miller - 203121.csv already exists
+INFO : 2021-08-27 09:33:38,786 : SUCCESS : Darrell Arthur - 201589.csv already exists
+INFO : 2021-08-27 09:33:38,786 : SUCCESS : Darren Collison - 201954.csv already exists
+INFO : 2021-08-27 09:33:38,786 : SUCCESS : Darrun Hilliard - 1626199.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : David Nwaba - 1628021.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : David Stockton - 204065.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : David West - 2561.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : Davis Bertans - 202722.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : Davon Reed - 1628432.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : De'Aaron Fox - 1628368.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : DeAndre Jordan - 201599.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : DeAndre Liggins - 202732.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : DeAndre' Bembry - 1627761.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : DeMar DeRozan - 201942.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : DeMarcus Cousins - 202326.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : DeMarre Carroll - 201960.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : Dejounte Murray - 1627749.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : Delon Wright - 1626153.csv already exists
+INFO : 2021-08-27 09:33:38,792 : SUCCESS : Demetrius Jackson - 1627743.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Dennis Schroder - 203471.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Dennis Smith Jr. - 1628372.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Denzel Valentine - 1627756.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Derrick Favors - 202324.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Derrick Jones Jr. - 1627884.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Derrick Rose - 201565.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Derrick Walton - 1628476.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Derrick White - 1628401.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Derrick Williams - 202682.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Devin Booker - 1626164.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Devin Harris - 2734.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Devin Robinson - 1628421.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Dewayne Dedmon - 203473.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Deyonta Davis - 1627738.csv already exists
+INFO : 2021-08-27 09:33:38,808 : SUCCESS : Dillon Brooks - 1628415.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Dion Waiters - 203079.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Dirk Nowitzki - 1717.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Domantas Sabonis - 1627734.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Donovan Mitchell - 1628378.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Dorian Finney-Smith - 1627827.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Doug McDermott - 203926.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Dragan Bender - 1627733.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Draymond Green - 203110.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Dwayne Bacon - 1628407.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Dwight Buycks - 202779.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Dwight Howard - 2730.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Dwight Powell - 203939.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Dwyane Wade - 2548.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : E'Twaun Moore - 202734.csv already exists
+INFO : 2021-08-27 09:33:38,823 : SUCCESS : Ed Davis - 202334.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Edmond Sumner - 1628410.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Ekpe Udoh - 202327.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Elfrid Payton - 203901.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Emeka Okafor - 2731.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Emmanuel Mudiay - 1626144.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Enes Kanter - 202683.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Eric Bledsoe - 202339.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Eric Gordon - 201569.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Eric Moreland - 203961.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Erik McCree - 1628571.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Ersan Ilyasova - 101141.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Evan Fournier - 203095.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Evan Turner - 202323.csv already exists
+INFO : 2021-08-27 09:33:38,839 : SUCCESS : Frank Kaminsky - 1626163.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Frank Mason III - 1628412.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Frank Ntilikina - 1628373.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Fred VanVleet - 1627832.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Furkan Korkmaz - 1627788.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Garrett Temple - 202066.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Gary Harris - 203914.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Gary Payton II - 1627780.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : George Hill - 201588.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Georges Niang - 1627777.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Georgios Papagiannis - 1627834.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Gerald Green - 101123.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Gian Clavell - 1628492.csv already exists
+INFO : 2021-08-27 09:33:38,855 : SUCCESS : Giannis Antetokounmpo - 203507.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Glenn Robinson III - 203922.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Goran Dragic - 201609.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Gordon Hayward - 202330.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Gorgui Dieng - 203476.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Greg Monroe - 202328.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Guerschon Yabusele - 1627824.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Harrison Barnes - 203084.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Hassan Whiteside - 202355.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Henry Ellenson - 1627740.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Ian Clark - 203546.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Ian Mahinmi - 101133.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Ike Anigbogu - 1628387.csv already exists
+INFO : 2021-08-27 09:33:38,870 : SUCCESS : Iman Shumpert - 202697.csv already exists
+INFO : 2021-08-27 09:33:38,886 : SUCCESS : Isaiah Canaan - 203477.csv already exists
+INFO : 2021-08-27 09:33:38,886 : SUCCESS : Isaiah Hicks - 1628439.csv already exists
+INFO : 2021-08-27 09:33:38,886 : SUCCESS : Isaiah Taylor - 1627819.csv already exists
+INFO : 2021-08-27 09:33:38,886 : SUCCESS : Isaiah Thomas - 202738.csv already exists
+ERROR : 2021-08-27 09:33:48,790 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:33:48,791 : Trying again...
+ERROR : 2021-08-27 09:33:59,806 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:33:59,806 : Trying again...
+ERROR : 2021-08-27 09:34:09,873 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:34:09,874 : Trying again...
+ERROR : 2021-08-27 09:34:21,368 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:34:21,368 : Trying again...
+ERROR : 2021-08-27 09:34:41,483 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:34:41,483 : Trying again...
+ERROR : 2021-08-27 09:34:51,388 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:34:51,389 : Trying again...
+ERROR : 2021-08-27 09:35:08,532 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:35:08,532 : Trying again...
+ERROR : 2021-08-27 09:35:18,370 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:35:18,370 : Trying again...
+ERROR : 2021-08-27 09:35:30,148 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:35:30,149 : Trying again...
+ERROR : 2021-08-27 09:35:50,212 : Isaiah Whitehead = No tables found
+ERROR : 2021-08-27 09:35:50,212 : Trying again...
+ERROR : 2021-08-27 09:35:50,399 : Unable to parse Isaiah Whitehead
+INFO : 2021-08-27 09:35:50,399 : SUCCESS : Ish Smith - 202397.csv already exists
+INFO : 2021-08-27 09:35:50,399 : SUCCESS : Ivan Rabb - 1628397.csv already exists
+INFO : 2021-08-27 09:35:50,399 : SUCCESS : Ivica Zubac - 1627826.csv already exists
+INFO : 2021-08-27 09:35:50,399 : SUCCESS : J.J. Barea - 200826.csv already exists
+INFO : 2021-08-27 09:35:50,399 : SUCCESS : JJ Redick - 200755.csv already exists
+INFO : 2021-08-27 09:35:50,399 : SUCCESS : JR Smith - 2747.csv already exists
+INFO : 2021-08-27 09:35:50,399 : SUCCESS : JaKarr Sampson - 203960.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : JaMychal Green - 203210.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : JaVale McGee - 201580.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : Jabari Bird - 1628444.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : Jabari Parker - 203953.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : Jack Cooley - 204022.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : Jacob Pullen - 1626643.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : Jacob Wiley - 1628451.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : Jae Crowder - 203109.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : Jahlil Okafor - 1626143.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : Jake Layman - 1627774.csv already exists
+INFO : 2021-08-27 09:35:50,415 : SUCCESS : Jakob Poeltl - 1627751.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : Jalen Jones - 1627883.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : Jamal Crawford - 2037.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : Jamal Murray - 1627750.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : Jameel Warney - 1627866.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : Jameer Nelson - 2749.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : Jamel Artis - 1628503.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : James Ennis III - 203516.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : James Harden - 201935.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : James Johnson - 201949.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : James Michael McAdoo - 203949.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : James Webb III - 1627821.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : James Young - 203923.csv already exists
+INFO : 2021-08-27 09:35:50,430 : SUCCESS : Jamil Wilson - 203966.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jared Dudley - 201162.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jarell Eddie - 204067.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jarell Martin - 1626185.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jarrett Allen - 1628386.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jarrett Jack - 101127.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jason Smith - 201160.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jason Terry - 1891.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jawun Evans - 1628393.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jaylen Brown - 1627759.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jaylen Morris - 1628537.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jayson Tatum - 1628369.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jeff Green - 201145.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jeff Teague - 201952.csv already exists
+INFO : 2021-08-27 09:35:50,446 : SUCCESS : Jeff Withey - 203481.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Jerami Grant - 203924.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Jeremy Evans - 202379.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Jeremy Lamb - 203087.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Jeremy Lin - 202391.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Jerian Grant - 1626170.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Jerryd Bayless - 201573.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Jimmy Butler - 202710.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Joakim Noah - 201149.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Jodie Meeks - 201975.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Joe Harris - 203925.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Joe Ingles - 204060.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Joe Johnson - 2207.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Joe Young - 1626202.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Joel Bolomboy - 1627762.csv already exists
+INFO : 2021-08-27 09:35:50,462 : SUCCESS : Joel Embiid - 203954.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : Joffrey Lauvergne - 203530.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : John Collins - 1628381.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : John Henson - 203089.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : John Holland - 204066.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : John Wall - 202322.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : Johnathan Motley - 1628405.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : Johnny O'Bryant III - 203948.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : Jon Leuer - 202720.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : Jonas Jerebko - 201973.csv already exists
+INFO : 2021-08-27 09:35:50,477 : SUCCESS : Jonas Valanciunas - 202685.csv already exists
+ERROR : 2021-08-27 09:36:00,079 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:36:00,079 : Trying again...
+ERROR : 2021-08-27 09:36:11,482 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:36:11,483 : Trying again...
+ERROR : 2021-08-27 09:36:21,959 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:36:21,959 : Trying again...
+ERROR : 2021-08-27 09:36:31,814 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:36:31,814 : Trying again...
+ERROR : 2021-08-27 09:36:52,540 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:36:52,540 : Trying again...
+ERROR : 2021-08-27 09:37:03,654 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:37:03,654 : Trying again...
+ERROR : 2021-08-27 09:37:14,035 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:37:14,035 : Trying again...
+ERROR : 2021-08-27 09:37:25,350 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:37:25,351 : Trying again...
+ERROR : 2021-08-27 09:37:36,080 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:37:36,080 : Trying again...
+ERROR : 2021-08-27 09:37:56,036 : Jonathan Gibson = No tables found
+ERROR : 2021-08-27 09:37:56,036 : Trying again...
+ERROR : 2021-08-27 09:37:56,205 : Unable to parse Jonathan Gibson
+ERROR : 2021-08-27 09:38:06,283 : Jonathan Isaac = No tables found
+ERROR : 2021-08-27 09:38:06,283 : Trying again...
+ERROR : 2021-08-27 09:38:15,046 : Jonathan Isaac = No tables found
+ERROR : 2021-08-27 09:38:15,046 : Trying again...
+ERROR : 2021-08-27 09:38:25,840 : Jonathan Isaac = No tables found
+ERROR : 2021-08-27 09:38:25,840 : Trying again...
+ERROR : 2021-08-27 09:38:35,409 : Jonathan Isaac = No tables found
+ERROR : 2021-08-27 09:38:35,409 : Trying again...
+ERROR : 2021-08-27 09:38:39,877 : Jonathan Isaac = ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR : 2021-08-27 09:38:39,877 : Trying again...

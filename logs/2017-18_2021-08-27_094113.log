@@ -1,0 +1,15 @@
+INFO : 2021-08-27 09:41:13,585 : Dir raw_data/2017-18 already exists
+INFO : 2021-08-27 09:41:41,615 : Bio = (540, 6)
+INFO : 2021-08-27 09:41:54,806 : SUCCESS : Aaron Brooks = (157, 20) = 201166.csv
+INFO : 2021-08-27 09:42:06,410 : SUCCESS : Aaron Gordon = (328, 20) = 203932.csv
+INFO : 2021-08-27 09:42:16,941 : SUCCESS : Aaron Harrison = (81, 20) = 1626151.csv
+INFO : 2021-08-27 09:42:26,634 : SUCCESS : Aaron Jackson = (9, 20) = 1628935.csv
+INFO : 2021-08-27 09:42:42,366 : SUCCESS : Abdel Nader = (247, 20) = 1627846.csv
+INFO : 2021-08-27 09:42:52,184 : SUCCESS : Adreian Payne = (35, 20) = 203940.csv
+INFO : 2021-08-27 09:43:08,749 : SUCCESS : Al Horford = (333, 20) = 201143.csv
+INFO : 2021-08-27 09:43:19,117 : SUCCESS : Al Jefferson = (214, 20) = 2744.csv
+INFO : 2021-08-27 09:43:34,011 : SUCCESS : Al-Farouq Aminu = (317, 20) = 202329.csv
+INFO : 2021-08-27 09:43:43,705 : SUCCESS : Alan Williams = (45, 20) = 1626210.csv
+INFO : 2021-08-27 09:43:56,981 : SUCCESS : Alec Burks = (331, 20) = 202692.csv
+ERROR : 2021-08-27 09:44:07,312 : Alec Peters = [Errno 13] Permission denied: 'raw_data/2017-18/1628409.csv'
+ERROR : 2021-08-27 09:44:07,312 : Trying again...
