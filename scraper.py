@@ -7,6 +7,7 @@ import os
 import logging
 import datetime
 
+# set up logging parameters
 def set_logging(season):
     ts = datetime.datetime.today().strftime("%Y-%m-%d_%H%M%S")
     logging.basicConfig(
@@ -16,6 +17,7 @@ def set_logging(season):
         format='%(levelname)s : %(asctime)s : %(message)s'
     )
 
+# return all rows from stats.nba.com stable and not just first 50
 def select_all(driver):
     select_options = driver.find_elements_by_xpath("//select")
     try:
@@ -46,7 +48,7 @@ def main(season, from_scratch=True):
     driver.get(f'https://www.nba.com/stats/players/bio/?Season={season}&SeasonType=Regular%20Season')
     select_all(driver)
 
-    # scrape the data
+    # scrape the bio data with the url links
     soup = BeautifulSoup(driver.page_source, 'lxml')
     parsed_table = soup.find_all('table')
     data = []
@@ -90,7 +92,7 @@ def main(season, from_scratch=True):
                 os.remove(f"raw_data/{season}/{row['player_url']}.csv")
             except:
                 pass
-                
+
             for i in range(10):
                 try:
                     driver = webdriver.Chrome('./chromedriver')

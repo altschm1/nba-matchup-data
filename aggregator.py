@@ -4,6 +4,7 @@ import logging
 import sys
 import os
 
+# set up logging files
 def set_logging(season):
     ts = datetime.datetime.today().strftime("%Y-%m-%d_%H%M%S")
     logging.basicConfig(
@@ -13,12 +14,14 @@ def set_logging(season):
         format='%(levelname)s : %(asctime)s : %(message)s'
     )
 
+# convert MM:SS to seconds
 def time_convert(x):
     mins = int(x.split(':')[0])
     secs = int(x.split(':')[1])
     return 60 * mins + secs
 
 def main(season):
+    # create final_data dir if it doesn't exist
     try:
         os.mkdir(f'final_data/{season}')
     except Exception as e:
@@ -63,21 +66,28 @@ def main(season):
 
     # get usage score
     wm = lambda x: np.average(x, weights=matchups_augmented.loc[x.index, "POSS"])
-    weighted_usg_stats = matchups_augmented.groupby('defense_player', as_index=False).agg(adj_usg=('adj_usg', wm))
+    weighted_usg_stats = matchups_augmented.groupby('defense_player', as_index=False).agg(adj_usg=('adj_usg', wm), poss=('POSS', sum))
+    weighted_usg_stats.loc[weighted_usg_stats['poss'] < 100.0, 'adj_usg'] = np.nan
     weighted_usg_stats['adj_usg_rank'] = weighted_usg_stats['adj_usg'].rank(pct=True)
     defense_stats = pd.merge(defense_stats, weighted_usg_stats[['defense_player', 'adj_usg_rank']], left_on='player', right_on='defense_player')
     defense_stats = defense_stats.drop(columns=['defense_player'])
 
     # get height versatility score
     versatility = pd.DataFrame()
-    versatility = matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'Big Freq%': x[x['height_in'] >= 82]['POSS'].sum() / x['POSS'].sum()}))
-    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'Wing Freq%': x[(x['height_in'] > 75) & (x['height_in'] <= 78)]['POSS'].sum() / x['POSS'].sum()})))
-    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'Forward Freq%': x[(x['height_in'] > 78) & (x['height_in'] <= 81)]['POSS'].sum() / x['POSS'].sum()})))
-    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'Guard Freq%': x[x['height_in'] <= 75]['POSS'].sum() / x['POSS'].sum()})))
-    versatility['score'] = -(versatility['Guard Freq%']*np.log(versatility['Guard Freq%'] + 0.0001) + versatility['Wing Freq%']*np.log(versatility['Wing Freq%'] + 0.0001) + versatility['Forward Freq%']*np.log(versatility['Forward Freq%'] + 0.0001) + versatility['Big Freq%']*np.log(versatility['Big Freq%'] + 0.0001))
+    versatility = matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'freq_gte82': x[x['height_in'] >= 82]['POSS'].sum() / x['POSS'].sum()}))
+    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'freq_lte78': x[(x['height_in'] > 75) & (x['height_in'] <= 78)]['POSS'].sum() / x['POSS'].sum()})))
+    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'freq_lte81': x[(x['height_in'] > 78) & (x['height_in'] <= 81)]['POSS'].sum() / x['POSS'].sum()})))
+    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'freq_lte75': x[x['height_in'] <= 75]['POSS'].sum() / x['POSS'].sum()})))
+    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'poss_lte78': x[(x['height_in'] > 75) & (x['height_in'] <= 78)]['POSS'].sum()})))
+    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'poss_lte81': x[(x['height_in'] > 78) & (x['height_in'] <= 81)]['POSS'].sum()})))
+    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'poss_lte75': x[x['height_in'] <= 75]['POSS'].sum()})))
+    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'poss_gte82': x[x['height_in'] >= 82]['POSS'].sum()})))
+    versatility = pd.merge(versatility, matchups_augmented.groupby('defense_player', as_index=False).apply(lambda x: pd.Series({'poss': x['POSS'].sum()})))
+    versatility['score'] = -(versatility['freq_lte75']*np.log(versatility['freq_lte75'] + 0.0001) + versatility['freq_lte78']*np.log(versatility['freq_lte78'] + 0.0001) + versatility['freq_lte81']*np.log(versatility['freq_lte81'] + 0.0001) + versatility['freq_gte82']*np.log(versatility['freq_gte82'] + 0.0001))
+    versatility.loc[versatility['poss'] < 100.0, 'score'] = np.nan
     versatility['versatility_score_rank'] = versatility['score'].rank(pct=True)
     defense_stats = pd.merge(defense_stats, versatility, left_on='player', right_on='defense_player')
-    defense_stats = defense_stats.drop(columns=['defense_player'])
+    defense_stats = defense_stats.drop(columns=['defense_player', 'score'])
 
     # get average height
     wm = lambda x: np.average(x, weights=matchups_augmented.loc[x.index, "POSS"])
@@ -89,34 +99,6 @@ def main(season):
     wm = lambda x: np.average(x, weights=matchups_augmented.loc[x.index, "POSS"])
     weighted_weight_stats = matchups_augmented.groupby('defense_player', as_index=False).agg(weight=('weight_lb', wm))
     defense_stats = pd.merge(defense_stats, weighted_weight_stats[['defense_player', 'weight']], left_on='player', right_on='defense_player')
-    defense_stats = defense_stats.drop(columns=['defense_player'])
-
-    # get guard POA rating
-    wm = lambda x: np.average(x, weights=matchups_augmented.loc[x.index, "POSS"])
-    weighted_usg_stats = matchups_augmented[matchups_augmented['height_in'] <= 75].groupby('defense_player', as_index=False).agg(adj_usg=('adj_usg', wm))
-    weighted_usg_stats['adj_usg_rank_guard'] = weighted_usg_stats['adj_usg'].rank(pct=True)
-    defense_stats = pd.merge(defense_stats, weighted_usg_stats[['defense_player', 'adj_usg_rank_guard']], left_on='player', right_on='defense_player')
-    defense_stats = defense_stats.drop(columns=['defense_player'])
-
-    # get wing POA rating
-    wm = lambda x: np.average(x, weights=matchups_augmented.loc[x.index, "POSS"])
-    weighted_usg_stats = matchups_augmented[(matchups_augmented['height_in'] > 75) & (matchups_augmented['height_in'] <= 78)].groupby('defense_player', as_index=False).agg(adj_usg=('adj_usg', wm))
-    weighted_usg_stats['adj_usg_rank_wing'] = weighted_usg_stats['adj_usg'].rank(pct=True)
-    defense_stats = pd.merge(defense_stats, weighted_usg_stats[['defense_player', 'adj_usg_rank_wing']], left_on='player', right_on='defense_player')
-    defense_stats = defense_stats.drop(columns=['defense_player'])
-
-    # get forward POA rating
-    wm = lambda x: np.average(x, weights=matchups_augmented.loc[x.index, "POSS"])
-    weighted_usg_stats = matchups_augmented[(matchups_augmented['height_in'] > 78) & (matchups_augmented['height_in'] <= 81)].groupby('defense_player', as_index=False).agg(adj_usg=('adj_usg', wm))
-    weighted_usg_stats['adj_usg_rank_forward'] = weighted_usg_stats['adj_usg'].rank(pct=True)
-    defense_stats = pd.merge(defense_stats, weighted_usg_stats[['defense_player', 'adj_usg_rank_forward']], left_on='player', right_on='defense_player')
-    defense_stats = defense_stats.drop(columns=['defense_player'])
-
-    # get big POA rating
-    wm = lambda x: np.average(x, weights=matchups_augmented.loc[x.index, "POSS"])
-    weighted_usg_stats = matchups_augmented[matchups_augmented['height_in'] >= 82].groupby('defense_player', as_index=False).agg(adj_usg=('adj_usg', wm))
-    weighted_usg_stats['adj_usg_rank_big'] = weighted_usg_stats['adj_usg'].rank(pct=True)
-    defense_stats = pd.merge(defense_stats, weighted_usg_stats[['defense_player', 'adj_usg_rank_big']], left_on='player', right_on='defense_player')
     defense_stats = defense_stats.drop(columns=['defense_player'])
 
     defense_stats.to_csv(f'final_data/{season}/stats.csv', index=False)
