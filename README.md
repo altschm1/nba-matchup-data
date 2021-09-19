@@ -15,6 +15,7 @@ scaper.py goes through every player from a season, and generates a file called {
 aggregator.py goes through all the {player_id}.csv files in ./raw_data/{season} and generates three aggregate files (players.csv, matchups.csv, and stats.csv) in the directory ./final_data/{season}.
 
 The fields for players.csv are currently:
+
 *player
 *slug
 *season
@@ -24,6 +25,7 @@ The fields for players.csv are currently:
 *weight_lb
 
 The fields for matchups.csv are currently:
+
 *offense_player
 *defense_player
 *SEASON
@@ -39,6 +41,7 @@ The fields for matchups.csv are currently:
 *TOV
 
 The fields for stats.csv are currently:
+
 *player
 *season
 *POSS
