@@ -16,48 +16,48 @@ aggregator.py goes through all the {player_id}.csv files in ./raw_data/{season} 
 
 The fields for players.csv are currently:
 
-*player
-*slug
-*season
-*team
-*age
-*height_in
-*weight_lb
+* player
+* slug
+* season
+* team
+* age
+* height_in
+* weight_lb
 
 The fields for matchups.csv are currently:
 
-*offense_player
-*defense_player
-*SEASON
-*SECS
-*POSS
-*2PM
-*2PA
-*3PM
-*3PA
-*FTM
-*FTA
-*AST
-*TOV
+* offense_player
+* defense_player
+* SEASON
+* SECS
+* POSS
+* 2PM
+* 2PA
+* 3PM
+* 3PA
+* FTM
+* FTA
+* AST
+* TOV
 
 The fields for stats.csv are currently:
 
-*player
-*season
-*POSS
-*adj_usg_rank (percentile score for average opposing adjusted usage rank where adjusted usage rank is ``` (2PA + 3PA + 0.44 * FTA + TOV) * POSS^-0.5 ```)
-*freq_gte82 (frequency of possessions vs players 6'10 and taller)
-*freq_lte78 (frequency of possessions vs players 6'4 to 6'6)
-*freq_lte81 (frequency of possessions vs players 6'7 to 6'9)
-*freq_lte75 (frequency of possessions vs players 6'3 and shorter)
-*poss_lte78 (possessions versus players 6'4 to 6'6)
-*poss_lte81 (possessions versus players 6'7 to 6'9)
-*poss_lte75 (possessions versus players 6'3 and shorter)
-*poss_gte82 (possessions versus players 6'10 and taller)
-*poss
-*versatility_score_rank (percentile for Shannon entropy for freq_gte82, freq_lte81, freq_lte78, freq_lte75)
-*height (average opposing height)
-*weight (average opposing weight)
+* player
+* season
+* POSS
+* adj_usg_rank (percentile score for average opposing adjusted usage rank where adjusted usage rank is ``` (2PA + 3PA + 0.44 * FTA + TOV) * POSS^-0.5 ```)
+* freq_gte82 (frequency of possessions vs players 6'10 and taller)
+* freq_lte78 (frequency of possessions vs players 6'4 to 6'6)
+* freq_lte81 (frequency of possessions vs players 6'7 to 6'9)
+* freq_lte75 (frequency of possessions vs players 6'3 and shorter)
+* poss_lte78 (possessions versus players 6'4 to 6'6)
+* poss_lte81 (possessions versus players 6'7 to 6'9)
+* poss_lte75 (possessions versus players 6'3 and shorter)
+* poss_gte82 (possessions versus players 6'10 and taller)
+* poss
+* versatility_score_rank (percentile for Shannon entropy for freq_gte82, freq_lte81, freq_lte78, freq_lte75)
+* height (average opposing height)
+* weight (average opposing weight)
 
 ## How to Run
 
